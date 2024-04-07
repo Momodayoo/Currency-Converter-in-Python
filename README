@@ -1,0 +1,18 @@
+1. create solutions.py file 
+
+2. create and install virtual env 
+MAC: python3 -env venv venv
+Windows: python -m <name_of_env>
+
+3. Activate env
+MAC: source venv/bin/activate
+Windows: .\<name_of_env>\scripts\activate
+
+*make sure to have admin rights on execution policy 
+>>run powershell as admin
+>> Set-ExecutionPolicy Unrestricted
+>> Select yes
+
+4. install API request library
+MAC: pip3 install requests
+Windows: pip install requests
