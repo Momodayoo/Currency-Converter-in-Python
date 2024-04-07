@@ -6,13 +6,17 @@ Windows: python -m <name_of_env>
 
 3. Activate env
 MAC: source venv/bin/activate
-Windows: .\<name_of_env>\scripts\activate
+Windows: <name_of_env>\scripts\activate
 
 *make sure to have admin rights on execution policy 
 >>run powershell as admin
 >> Set-ExecutionPolicy Unrestricted
 >> Select yes
 
-4. install API request library
+4. install API request library in virtual env
 MAC: pip3 install requests
 Windows: pip install requests
+
+5. Follow scripts as solutions.py 
+
+6. 
